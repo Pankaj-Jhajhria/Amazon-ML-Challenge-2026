@@ -1,0 +1,38 @@
+﻿# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local datasets and downloaded competition data
+/dataset/
+/datasets/
+/data/
+**/dataset/
+**/datasets/
+**/data/
+**/CSV_Datasets/
+
+# Downloaded archives
+*.zip
+*.7z
+*.rar

@@ -1,0 +1,14 @@
+# Pinned dependencies for the Business Entity Resolution pipeline.
+# Every package listed here is actually imported somewhere in src/.
+# (scipy was evaluated per the brief and intentionally left out: candidate
+# generation uses DuckDB SQL joins + RapidFuzz re-ranking rather than dense
+# TF-IDF matrices, so no code path needs it.)
+numpy==1.26.4
+pandas==2.2.2
+duckdb==1.0.0
+rapidfuzz==3.9.4
+Unidecode==1.3.8
+scikit-learn==1.5.1
+lightgbm==4.4.0
+tqdm==4.66.4
+psutil==6.0.0
